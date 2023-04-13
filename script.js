@@ -2,7 +2,7 @@
 let p=document.querySelector("#status");
 let mybtn=document.querySelector("#enterBtn");
 
-mybtn.addEventListener(click,function(){
+mybtn.addEventListener("click",function(){
 	p.innerHTML=`<h1>Enter the Metaverse</h1>`
 	
 });
